@@ -30,7 +30,7 @@ This entry point function will begin parsing the input depthData.bin and rgbData
 
 
 ## References
-Thrun S, Burgard W, Fox D. (2005). [*Probabilistic Robotics*](http://www.probabilistic-robotics.org/), Intelligent Robotics and Autonomous Agents. MIT Press.
+Newcombe R, Izade S, Hilliges O, et al. (2005). [*KinectFusion: Real-Time Dense Surface Mapping and Tracking*](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ismar2011.pdf), Microsoft Research Center.
 
 ## License
 
