@@ -23,8 +23,8 @@ This entry point function will begin parsing the input depthData.bin and rgbData
 
 ### Example Output
 
-1. [**Video of Texture Mapped Point Clouds**](https://www.youtube.com/watch?v=upGnUDaSL4A&feature=youtu.be)
-2. [**Video of 3D Reconstruction**](https://www.youtube.com/watch?v=sUTZ3iXFBQE&feature=youtu.be) 
+1. [**Video of Texture Mapped Point Clouds**](https://www.youtube.com/watch?v=upGnUDaSL4A&t=0s&index=2&list=PL9IYlUueNFoa8mLsTHtWhH6aflSdcyqWZ)
+2. [**Video of 3D Reconstruction**](https://www.youtube.com/watch?v=sUTZ3iXFBQE&list=PL9IYlUueNFoa8mLsTHtWhH6aflSdcyqWZ&index=2) 
 
 ![](./StudioReconstruction.png)
 
