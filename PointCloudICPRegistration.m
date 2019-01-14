@@ -1,7 +1,12 @@
-% Register Personal Kinect Data with Built In ICP Implementations
-% 10/22/2015
-
-function [] = mainDepthRegistration()
+%% ================= Machine Learning Project =========================
+% Topic:    Register Personal Kinect Data with Built In ICP Implementations
+% Function: mainDepthRegistration
+% Author:   Sanandeesh Kamat
+% Date:     10/22/2015
+% Source:   KinectFusion: Real-Time Dense Surface Mapping and Tracking∗
+%           https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ismar2011.pdf
+% =========================================================================
+function [] = PointCloudICPRegistration()
     %% Initialize Video Reader
     dataFilePath = './InputData';
     rgbVidReader = VideoReader([dataFilePath, '/rgbData.avi']);
