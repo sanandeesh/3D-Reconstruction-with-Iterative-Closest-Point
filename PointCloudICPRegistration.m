@@ -3,7 +3,7 @@
 
 function [] = mainDepthRegistration()
     %% Initialize Video Reader
-    dataFilePath = './StudioInputData';
+    dataFilePath = './InputData';
     rgbVidReader = VideoReader([dataFilePath, '/rgbData.avi']);
     numFrames = get(rgbVidReader, 'NumberOfFrames'); % Get the Number of Frames.
     fidDepth = fopen([dataFilePath, '/depthData.bin'], 'r');
@@ -12,8 +12,8 @@ function [] = mainDepthRegistration()
         return;
     end
      %% Initialize Video Writer
-    slamVideoPath = '/home/argus/KinectFusion/OutputData/Stitching';
-    videoName = 'StudioOutwardFacing_Recon_DownSampled';
+    slamVideoPath = './';
+    videoName = 'ICPReconstruction';
     slamVideoWriter = VideoWriter([slamVideoPath, '/', videoName, '.avi']);
     slamVideoWriter.FrameRate = 30;
     open(slamVideoWriter);
